@@ -1,0 +1,58 @@
+.navbar-contain {
+    position: fixed;
+    width: 100%;
+    max-width: 1600px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+
+    z-index: 999;
+}
+
+.navbar {
+    max-width: 1600px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: red;
+    font-family: "Comic Neue", cursive;
+    text-shadow: 3px 3px 6px rgb(18, 18, 224);
+}
+.navbar-link {
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+.navbar-link:visited {
+    color: red;
+}
+
+.navbar-link:hover {
+    font-size: 28px;
+
+    color: #46f07f;
+}
+.navbar-background-1 {
+    background-color: black;
+}
+.navbar-search {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: scale 0.5s;
+    filter: drop-shadow(3px 3px 3px blue);
+}
+
+.navbar-search:hover {
+    fill: #46f07f;
+    scale: 120%;
+}

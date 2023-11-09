@@ -1,0 +1,15 @@
+.content-original {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: visible;
+    /* border: 1px solid red; */
+}
+.content-original h3 {
+    padding-left: 1.5%;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+/* .content-original-slider {
+    margin-top: 30px;
+} */

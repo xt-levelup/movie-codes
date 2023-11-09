@@ -1,0 +1,25 @@
+.banner-title {
+    height: 360px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5%;
+    color: white;
+    font-size: 28px;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 3px 3px 6px blue;
+}
+
+.banner-title-2 {
+    width: 420px;
+}
+
+.banner-title-3 {
+    max-height: 120px;
+    overflow: auto;
+}
+
+.banner-title p {
+    font-size: 16px;
+
+    margin-top: 6px;
+}

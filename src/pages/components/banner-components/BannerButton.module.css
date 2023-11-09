@@ -1,0 +1,17 @@
+button {
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(48, 47, 47);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.banner-button {
+    display: flex;
+    gap: 12px;
+}

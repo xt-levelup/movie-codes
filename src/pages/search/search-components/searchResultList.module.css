@@ -1,0 +1,30 @@
+.search-result {
+    margin-top: 2em;
+}
+
+.result {
+    max-width: 1600px;
+    display: flex;
+    gap: 12px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+
+    color: white;
+}
+.result img {
+    width: 128px;
+    height: 180px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.result img:hover {
+    transform: scale(1.1);
+    z-index: 99;
+    border: 1px solid rgb(100, 100, 238);
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px rgb(147, 147, 238);
+}

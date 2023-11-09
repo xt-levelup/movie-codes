@@ -1,0 +1,23 @@
+.banner {
+    max-width: 1600px;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.banner-p {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 6px blue;
+    left: 10%;
+    top: 10%;
+}
+.banner-error {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 6px blue;
+    left: 45%;
+    top: 45%;
+}

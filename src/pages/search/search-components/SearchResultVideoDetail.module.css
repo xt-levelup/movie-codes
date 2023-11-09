@@ -1,0 +1,213 @@
+.search-video-contain {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.36);
+    box-sizing: border-box;
+}
+.search-video-contain button {
+    position: fixed;
+    top: 50px;
+    right: 5%;
+    font-size: 12px;
+    width: 100px;
+    background-color: rgb(152, 238, 152);
+    color: rgb(204, 27, 27);
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .search-result-video {
+        position: absolute;
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        height: 540px;
+
+        align-items: center;
+
+        color: white;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        background-color: black;
+
+        padding: 1em;
+    }
+    .search-result-video-description {
+        width: 50%;
+        overflow: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+    }
+    .search-result-video-description h3 {
+        margin-left: -1em;
+    }
+    .search-result-video-description hr {
+        margin-top: -0.5em;
+        margin-bottom: 2em;
+    }
+    .search-result-video-description p {
+        font-weight: bold;
+        margin-top: -1em;
+    }
+    .search-result-video-show {
+        width: 50%;
+        height: 100%;
+        padding: 1em;
+    }
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .search-result-video {
+        position: absolute;
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        height: 420px;
+
+        align-items: center;
+
+        color: white;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        background-color: black;
+
+        padding: 1em;
+    }
+    .search-result-video-description {
+        width: 50%;
+        overflow: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+    }
+    .search-result-video-description h3 {
+        margin-left: -1em;
+    }
+    .search-result-video-description hr {
+        margin-top: -0.5em;
+        margin-bottom: 2em;
+    }
+    .search-result-video-description p {
+        font-weight: bold;
+        margin-top: -1em;
+    }
+    .search-result-video-show {
+        width: 50%;
+        height: 100%;
+        padding: 1em;
+    }
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 900px) {
+    .search-result-video {
+        position: absolute;
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        height: 300px;
+
+        align-items: center;
+
+        color: white;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        background-color: black;
+
+        padding: 1em;
+    }
+    .search-result-video-description {
+        width: 50%;
+        overflow: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+    }
+    .search-result-video-description h3 {
+        margin-left: -1em;
+    }
+    .search-result-video-description hr {
+        margin-top: -0.5em;
+        margin-bottom: 2em;
+    }
+    .search-result-video-description p {
+        font-weight: bold;
+        margin-top: -1em;
+    }
+    .search-result-video-show {
+        width: 50%;
+        height: 100%;
+        padding: 1em;
+    }
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 720px) {
+    .search-result-video {
+        position: absolute;
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        height: 600px;
+
+        align-items: center;
+
+        color: white;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        gap: 1em;
+        padding: 1em;
+        flex-direction: column;
+    }
+    .search-result-video-description {
+        width: 100%;
+        height: 40%;
+        overflow: auto;
+    }
+    .search-result-video-description h3 {
+        margin-left: -1em;
+    }
+    .search-result-video-description hr {
+        margin-top: -0.5em;
+        margin-bottom: 2em;
+    }
+    .search-result-video-description p {
+        font-weight: bold;
+        margin-top: -1em;
+    }
+    .search-result-video-show {
+        width: 100%;
+        height: 60%;
+    }
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
